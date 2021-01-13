@@ -13,3 +13,5 @@ Just run the following command to download MQTT library in RPI
 sudo pip3 install paho-mqtt
 ```
 Now download the MyMQTT App in your android mobile from play store and act as client or broker.
+Open the MyMQTT App and press `dashboard button` > `connect`>enter `url` and `portal` and optional urername and password > Now enter the `topic` as `rpi/mess`name and submit.
+
