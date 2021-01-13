@@ -9,6 +9,6 @@ client.connect("broker.mqttdashboard.com", 1883)
 client.loop_start()
 
 while True:
-    client.publish("rpi/mess", "Hai RPi Master", qos=1)
+    client.publish("rpi/mess", "Hey RPi Master", qos=1)
     time.sleep(2)
     
